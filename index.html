@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM FREAKS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="utils.css" />
+  </head>
+
+  <body class="overflow-x-hidden">
+    <div class="container mx-auto">
+      <header>
+        <nav class="flex justify-between items-center py-4">
+          <div class="logo font-bold text-2xl text-blue-600">GYM FREAKS</div>
+          <ul class="navbar flex items-center space-x-6">
+            <li><a href="#" class="hover:text-blue-500">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li>
+              <a href="#services" class="hover:text-blue-500">Services</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-blue-500">Contact Us</a>
+            </li>
+            <li><button class="btn">Join Now</button></li>
+          </ul>
+        </nav>
+        <hr />
+      </header>
+      <main class="min-h-screen">
+        <section
+          id="hero"
+          class="section1 flex flex-col-reverse lg:flex-row items-center my-8"
+        >
+          <div
+            class="topleft flex flex-col justify-center px-6 lg:w-1/2 text-center lg:text-left"
+          >
+            <h1 class="my-4 text-4xl font-bold">
+              The Best Fitness Gym in Town
+            </h1>
+            <p class="mb-4 text-lg">
+              Join GYM FREAKS and unlock your full potential. We offer top-notch
+              equipment, expert trainers, and a community that supports your
+              fitness journey. Whether you're a beginner or a seasoned athlete,
+              we have something for everyone.
+            </p>
+            <!-- Display the countdown timer in an element -->
+            <p class="deal font-semibold text-lg mb-4">
+              Special Offer! The deal ends in
+              <span id="demo" class="font-bold text-red-500"></span>
+            </p>
+            <div class="buttons flex justify-center lg:justify-start space-x-4">
+              <button class="btn">Join Now</button>
+              <button class="btn btn-secondary">Contact Us</button>
+            </div>
+          </div>
+          <div class="topright flex justify-center lg:w-1/2">
+            <img
+              class="gymimg w-3/4 lg:w-full"
+              src="gym.png"
+              alt="People working out in the gym"
+            />
+          </div>
+        </section>
+        <hr />
+        <section id="about" class="section2 my-8 px-6">
+          <h1 class="text-center text-3xl font-bold my-4">About Us</h1>
+          <p class="text-center text-lg mb-8">
+            At GYM FREAKS, we believe that fitness is not just a hobby—it's a
+            lifestyle. Our state-of-the-art facilities, experienced trainers,
+            and a welcoming environment make it easy to achieve your fitness
+            goals. Whether you're looking to build muscle, lose weight, or
+            simply maintain a healthy lifestyle, we're here to support you every
+            step of the way.
+          </p>
+        </section>
+        <hr />
+        <section id="services" class="section3 my-8 px-6">
+          <h1 class="text-center text-3xl font-bold my-4">Our Services</h1>
+          <div class="boxes flex flex-wrap justify-center space-x-4">
+            <div class="box bg-white shadow-md p-6 rounded-lg text-center">
+              <h2 class="text-xl font-bold mb-4">Free</h2>
+              <ul class="mb-4">
+                <li class="highlighted font-bold text-2xl">₹0/month</li>
+                <li>Basic access to gym equipment</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button class="btn">Signup Now</button>
+            </div>
+            <div class="box bg-white shadow-md p-6 rounded-lg text-center">
+              <h2 class="text-xl font-bold mb-4">Pro</h2>
+              <ul class="mb-4">
+                <li class="highlighted font-bold text-2xl">₹150/month</li>
+                <li>Access to all equipment</li>
+                <li>Personal trainer sessions</li>
+                <li>5 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button class="btn">Signup Now</button>
+            </div>
+            <div class="box bg-white shadow-md p-6 rounded-lg text-center">
+              <h2 class="text-xl font-bold mb-4">Enterprise</h2>
+              <ul class="mb-4">
+                <li class="highlighted font-bold text-2xl">₹500/month</li>
+                <li>Unlimited access to all facilities</li>
+                <li>Personalized diet plan</li>
+                <li>Priority support</li>
+                <li>Unlimited storage</li>
+                <li>Help center access</li>
+              </ul>
+              <button class="btn">Signup Now</button>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section id="compare-plans" class="section4 my-8 px-6">
+          <h1 class="text-center text-3xl font-bold my-4">Compare Plans</h1>
+          <div class="container plantable">
+            <table class="table-auto w-full text-center">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Free</th>
+                  <th>Pro</th>
+                  <th>Enterprise</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-start">Public</th>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Private</th>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Permissions</th>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Sharing</th>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Unlimited members</th>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-start">Extra security</th>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <hr />
+      </main>
+      <footer class="py-6 text-center bg-gray-800 text-white">
+        <p>
+          &copy; <span id="year"></span> GYMFREAKS.com | All rights reserved
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

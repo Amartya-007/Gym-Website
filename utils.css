@@ -1,0 +1,189 @@
+/* Utility Classes */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.font-bold {
+  font-weight: bolder;
+}
+
+.my-1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.my-2 {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.px-2 {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.text-blue {
+  color: rgb(29, 78, 216); /* Updated to a more standard blue */
+}
+
+.btn {
+  padding: 7px 12px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(29, 78, 216);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(23, 63, 178);
+  border-color: white;
+}
+
+.btn-secondary {
+  background-color: rgb(75, 85, 99);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(55, 65, 81);
+  border-color: white;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.space-x-4 {
+  margin-right: -16px;
+}
+
+.space-x-4 > * {
+  margin-right: 16px;
+}
+
+.space-x-6 {
+  margin-right: -24px;
+}
+
+.space-x-6 > * {
+  margin-right: 24px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.lg\\:w-1\/2 {
+  width: 50%;
+}
+
+.my-4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-8 {
+  margin-bottom: 64px;
+}
+
+.px-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-6 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.shadow-md {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray-800 {
+  background-color: rgb(31, 41, 55);
+}
+
+.text-white {
+  color: white;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
